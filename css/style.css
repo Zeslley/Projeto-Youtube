@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.topo {
+    width: 98%;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .image--left {
+    width: 100%;
+    max-width: 80px;
+    margin-left: 20px;
+  }
+  
+  .topo--left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search--topo {
+    width: 100%;
+    max-width: 500px;
+    padding: 7px 20px;
+    margin-left: 85px;
+  }
+  
+  .button--search {
+    padding: 7px 20px;
+    color: gray;
+    cursor: pointer;
+    margin-left: -40px;
+  }
+  
+  .mic--topo,
+  .th--topo,
+  .grip--topo {
+    font-size: 20px;
+    color: rgb(80, 79, 79);
+    margin-left: 20px;
+  }
+  
+  .login--topo {
+    padding: 10px 15px;
+    color: blue;
+    border: 1px solid blue;
+    background: white;
+    margin-left: 20px;
+  }
+  
+  .user--login {
+    color: blue;
+    font-size: 20px;
+    margin-right: 5px;
+    margin-top: -20px;
+  }
+  
+  .lateral {
+    width: 100%;
+    max-width: 250px;
+    height: 1000px;
+    float: left;
+    margin-top: -30px;
+  }
+
+  .item--lateral{
+    width: 100%;
+    padding: 10px;
+    color: gray;
+    background: #E6E6E6;
+  }
+
+  .icone--lateral{
+    color: red;
+    font-size: 18px;
+    float: left;
+    margin-left: 10px;
+  }
+
