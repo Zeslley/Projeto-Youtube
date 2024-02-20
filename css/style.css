@@ -131,7 +131,20 @@
     max-width: 150px;
     font-size: 14px;
     text-align: left;
+    color: #616161;
     margin-bottom: 15px;
     margin-top: -4px;
+  }
+
+  .melhor--lateral{
+    width: 100%;
+    max-width: 200px;
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 15px;
+    margin-top: 12px;
+    margin-left: 10px;
+    font-weight: bold;
   }
 
