@@ -4,6 +4,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .topo {
     width: 98%;
     padding: 12px 20px;
@@ -52,6 +53,14 @@
     background: white;
     margin-left: 20px;
   }
+
+  .login--baixo {
+    padding: 10px 15px;
+    margin-left: 48px;
+    color: blue;
+    border: 1px solid blue;
+    background: white;
+  }
   
   .user--login {
     color: blue;
@@ -63,22 +72,66 @@
   .lateral {
     width: 100%;
     max-width: 250px;
+    font-size: 15px;
     height: 1000px;
     float: left;
-    margin-top: -30px;
   }
 
-  .item--lateral{
+  .item--lateral--active{
     width: 100%;
-    padding: 10px;
-    color: gray;
+    padding: 10px 13px;
+    color: #616161;
+    font-weight: bold;
+    margin-top: -20px;
     background: #E6E6E6;
+    cursor: pointer;
   }
 
-  .icone--lateral{
+  .item--lateral--active:hover{
+    background: #d4d4d4;
+  }
+
+  .icone--lateral--active{
     color: red;
     font-size: 18px;
     float: left;
     margin-left: 10px;
+    margin-right: 20px;
+    
+  }
+
+  .item--lateral{
+    width: 100%;
+    padding: 10px 13px;
+    color: #616161;
+    cursor: pointer;
+  }
+
+  .item--lateral:hover{
+    background: #eeeeeeee;
+  }
+
+  .icone--lateral{
+    color: #616161;
+    font-size: 18px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+  }
+
+  .separator{
+    height: 1px;
+    background: rgb(180, 180, 180);
+    margin-top: 15px;
+  }
+
+  .curta--lateral{
+    width: 100%;
+    max-width: 150px;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: -4px;
   }
 
